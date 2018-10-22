@@ -1,0 +1,30 @@
+a {
+  text-decoration: none;
+  color: #555555; 
+  font-weight: bold;
+  display: flex;
+  width: 270px;
+  height: 60px;
+  background: rgb(179,179,179);
+  background: linear-gradient(0deg, #B3B3B3 40%, #DCDCDC 60%);
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #B1B1B1;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-size: 27px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0 0 0pt 5pt #CBCBCB;
+}
+
+a:before {
+ content: " ";
+ width: 292px;
+ height: 82px; 
+ position: absolute;
+ z-index: -1;
+ border: 2px solid #666666;
+ border-radius: 25px;
+}
